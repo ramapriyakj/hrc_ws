@@ -1,0 +1,2 @@
+hrc
+-DCATKIN_DEVEL_PREFIX=/home/ramapriya/hrc_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ramapriya/hrc_ws/install -G Unix Makefiles

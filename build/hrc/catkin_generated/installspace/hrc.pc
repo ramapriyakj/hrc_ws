@@ -1,0 +1,8 @@
+prefix=/home/ramapriya/hrc_ws/install
+
+Name: hrc
+Description: Description of hrc
+Version: 0.0.0
+Cflags: -I/home/ramapriya/hrc_ws/install/include
+Libs: -L/home/ramapriya/hrc_ws/install/lib 
+Requires: 

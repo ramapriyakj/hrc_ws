@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+<node name="TaskGenerator" pkg="hrc" type="TaskGenerator" output="screen" launch-prefix="xterm -e" />
+<node name="HumanControl" pkg="hrc" type="HumanControl" output="screen" launch-prefix="xterm -e" />
+<node name="HumanExecution" pkg="hrc" type="HumanExecution" output="screen" launch-prefix="xterm -e" />-->
+<node name="RobotExecution" pkg="hrc" type="RobotExecution" output="screen" launch-prefix="xterm -e" />
+<node name="DataCollectionAndPreprocessing" pkg="hrc" type="DataCollectionAndPreprocessing.py" output="screen" launch-prefix="xterm -e" />
+<node name="HumanActionRecognition" pkg="hrc" type="HumanActionRecognition.py" output="screen" launch-prefix="xterm -e" />
+</launch>
